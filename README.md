@@ -19,6 +19,8 @@ Implement an app that receives commands from UART and run functions as follows.
 | LED BLUE       |  BCM4|
 | BUTTON         |  BCM20|
 | PWM PIN        |  PWM0|
+|USB to TLL - RX |  BCM14 (TX)|
+|USB to TLL - TX |  BCM15 (RX)|
 
 ## MEMBERS
 
