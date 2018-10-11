@@ -22,6 +22,11 @@ Implement an app that receives commands from UART and run functions as follows.
 |USB to TLL - RX |  BCM14 (TX)|
 |USB to TLL - TX |  BCM15 (RX)|
 
+## Usage
++ At the exercise 3, add this line: `import com.google.android.things.pio.Pwm` into the MainActivity.java
++ To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `implementation com.leinardi.android.things:pio-softpwm:0.2` and add `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
++ With the exercise controlling the RGB LED by using PWM, if we use commom cattot, the lower the dutycycle, the brighter LED. By contrast, if we use commom anot, the higher the dutycycle, the brighter LED.
+
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
